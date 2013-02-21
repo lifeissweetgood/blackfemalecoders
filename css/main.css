@@ -1,0 +1,50 @@
+body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,input,textarea{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal; padding:5px 0;}
+h1, h3 {font-family:'Courier New', Courier, monospace;}
+#header {color:#888888; position:relative; margin:-49 auto; padding-top:25px; width:auto; max-width:950px; min-width:600px;}
+#header h1 {color:#000000; font-weight:bold; text-align:left; font-size:75px; line-height:90%; margin-bottom:5px; margin-top:-30px; margin-left: 150px; letter-spacing:-11px;}
+#header h1 a:link, #header h1 a:visited {color:#000000; display:block;}
+#header h1 a:hover, #header h1 a:active {color:#082aec;}
+#description {font-family:'Courier New', Courier, monospace; font-size:14px; text-align:left; position:relative; line-height:autopx; margin-bottom:20px; margin-top:-15px;}
+#header form {margin-bottom:20px;}
+#header form input {width:630px;}
+#header ul {margin:0 -0.25em 1.5em;}
+#header li {list-style:none; text-transform:lowercase;}
+#header li a {background:#ffffff; display:block; padding:0 0.25em; text-decoration:none;}
+#header li a:hover {background:none;}
+
+.main
+{
+  font-family: Courier New;
+  font-size: 17px;
+  color: #fff;
+  top: 25%;
+  left: 12%;
+  position: absolute;
+  max-width: 1000px;
+  min-width: 800px;
+  max-height: auto;
+}
+
+.logo
+{
+  float: left;
+  margin:-55px 0px 10px;  
+  width: 155px;
+  height: 145px;
+}
+
+.headerTitle
+{
+  float: right;
+  clear: right;
+}
+
+.content
+{
+  background-color: #000;
+  position: relative;
+  clear: left;
+  margin: 10px 10px;
+  padding: 30px;
+}
