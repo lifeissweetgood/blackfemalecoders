@@ -3,8 +3,8 @@ h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal; padding:5px 0;}
 h1, h3 {font-family:'Courier New', Courier, monospace;}
 #header {color:#888888; position:relative; margin:-49 auto; padding-top:25px; width:auto; max-width:950px; min-width:600px;}
 #header h1 {color:#000000; font-weight:bold; text-align:left; font-size:75px; line-height:90%; margin-bottom:5px; margin-top:-30px; margin-left: 150px; letter-spacing:-11px;}
-#header h1 a:link, #header h1 a:visited {color:#000000; display:block;}
-#header h1 a:hover, #header h1 a:active {color:#082aec;}
+#header h1 a:link, #header h1 a:visited {color:#000000; text-decoration:none; display:block;}
+#header h1 a:hover, #header h1 a:active {color:#000000; text-decoration:none;}
 #description {font-family:'Courier New', Courier, monospace; font-size:14px; text-align:left; position:relative; line-height:autopx; margin-bottom:20px; margin-top:-15px;}
 #header form {margin-bottom:20px;}
 #header form input {width:630px;}
@@ -13,12 +13,18 @@ h1, h3 {font-family:'Courier New', Courier, monospace;}
 #header li a {background:#ffffff; display:block; padding:0 0.25em; text-decoration:none;}
 #header li a:hover {background:none;}
 
+#highlight {color:#0099FF}
+
+a:link, a:active, a:visited {color: #082aec; text-decoration: none;}
+a:hover {color: #0099FF;}
+
 .main
 {
-  font-family: Courier New;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 17px;
   color: #fff;
-  top: 25%;
+  top: 15%;
   left: 12%;
   position: absolute;
   max-width: 1000px;
@@ -45,6 +51,70 @@ h1, h3 {font-family:'Courier New', Courier, monospace;}
   background-color: #000;
   position: relative;
   clear: left;
-  margin: 10px 10px;
+  margin: 0px 10px;
   padding: 30px;
+}
+
+.nav
+{
+    margin: 65px 10px 0px 10px;
+    padding: 0px;
+    position: relative;
+    background-color: #000;
+    max-width: inherit;
+    min-width: inherit;
+    max-height: 40px;
+    height:40px;
+}
+
+#whitebar
+{
+    height: 15px;
+    background-color: #fff;
+    width: 1000px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav ul
+{
+    display: table;
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+}
+
+.nav li
+{
+    font-family: 'Electrolize';
+    display: table-cell;
+    list-style-type: none;
+    width: 15%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 5px 5px 5px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+/*
+.nav li a
+{
+    display:block;
+    height: 40px;
+}*/
+
+.nav li:hover
+{
+    color: #0099FF;
+    background-color: #333;
+}
+
+#progress
+{
+    display: none;
 }
