@@ -1,11 +1,16 @@
 body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,input,textarea{margin:0;padding:0;}
 h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal; padding:5px 0;}
 h1, h3 {font-family:'Courier New', Courier, monospace;}
-#header {color:#888888; position:relative; margin:-49 auto; padding-top:25px; width:auto; max-width:950px; min-width:600px;}
+
+#social-media-icons-outer {float:right; position:fixed; right:10%; margin:0; height: auto; max-width: 225px; min-width:100px;z-index:1;}
+#social-media-icons-inner {/*background-color:#999;*/ margin:0; position:fixed; height: auto; width:300px; max-width: 225px; min-width:100px;}
+.socialmedia {max-width:42px; min-width:15px; max-height:39px; min-height:16px;}
+
+#header {color:#888888; position:relative; margin:70px auto 20px; padding-top:25px; width:auto; max-width:1000px; min-width:200px; height: auto;}
 #header h1 {color:#000000; font-weight:bold; text-align:left; font-size:75px; line-height:90%; margin-bottom:5px; margin-top:-30px; margin-left: 150px; letter-spacing:-11px;}
 #header h1 a:link, #header h1 a:visited {color:#000000; text-decoration:none; display:block;}
 #header h1 a:hover, #header h1 a:active {color:#000000; text-decoration:none;}
-#description {font-family:'Courier New', Courier, monospace; font-size:14px; text-align:left; position:relative; line-height:autopx; margin-bottom:20px; margin-top:-15px;}
+#description {font-family:'Courier New', Courier, monospace; font-size:14px; text-align:left; position:relative; line-height:autopx; margin-top:-15px;}
 #header form {margin-bottom:20px;}
 #header form input {width:630px;}
 #header ul {margin:0 -0.25em 1.5em;}
@@ -23,13 +28,14 @@ a:hover {color: #0099FF;}
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 17px;
-  color: #fff;
-  top: 15%;
-  left: 12%;
+  color: #CCC;
+  left: 10%;
+  right: 10%;
   position: absolute;
   max-width: 1000px;
-  min-width: 800px;
+  min-width: 200px;
   max-height: auto;
+  z-index: 2;
 }
 
 .logo
@@ -48,21 +54,22 @@ a:hover {color: #0099FF;}
 
 .content
 {
-  background-color: #000;
+  /*background-color: #131313;*/
+  background-color: #191919;
   position: relative;
   clear: left;
   margin: 0px 10px;
-  padding: 30px;
+  padding:30px 20%;
 }
 
 .nav
 {
-    margin: 65px 10px 0px 10px;
+    margin: 5px 10px 0px 10px;
     padding: 0px;
     position: relative;
     background-color: #000;
-    max-width: inherit;
-    min-width: inherit;
+    max-width: 1000px;
+    min-width: 200px;
     max-height: 40px;
     height:40px;
 }
@@ -78,40 +85,49 @@ a:hover {color: #0099FF;}
 
 .nav ul
 {
-    display: table;
+    /*display: table;
+    table-layout: fixed;*/
     list-style-type: none;
-    height: 40px;
+    min-height: 40px;
     width: 100%;
     padding: 0px;
     margin: 0px;
-    table-layout: fixed;
+    zoom: 1;
 }
 
 .nav li
 {
     font-family: 'Electrolize';
-    display: table-cell;
+    float: left;
+    /*display: inline-block;*/
     list-style-type: none;
-    width: 15%;
-    height: 40px;
-    background-color: #000;
+    width: 20%;
+    /*height: 30px;*/
+    background-color: #191919;
     color: #fff;
-    padding: 10px 5px 5px 5px;
     margin: 0px;
     position: relative;
     text-align: center;
 }
-/*
-.nav li a
+
+.nav li a:link, a:active, a:visited
 {
-    display:block;
-    height: 40px;
-}*/
+    display: block;
+    padding-top: 10px;
+    margin: 0px;
+    min-height: 30px;
+    color: #fff;
+}
+
+.nav li a:hover
+{
+    color: #0099FF;
+}
 
 .nav li:hover
 {
     color: #0099FF;
-    background-color: #333;
+    background-color: #f5f5f5;
 }
 
 #progress
