@@ -20,8 +20,7 @@ body
 {
     list-style-type: none;
     float: right;
-    background-color: #333;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 
 .nav ul li
