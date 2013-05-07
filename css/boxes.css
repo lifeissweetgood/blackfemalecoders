@@ -1,7 +1,13 @@
+body
+{
+    margin: 0;
+    padding: 120px;
+}
+
 .main-boxes
 {
-    margin: 0px;
-    padding: 80px;
+    margin: 0px auto;
+    padding: 0px;
     width: 1200px;
 }
 
