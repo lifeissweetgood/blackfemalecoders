@@ -8,6 +8,7 @@ body
 {
     margin: 0px;
     padding: 120px 0px 120px;
+    width: 1200px;
 }
 
 #navbar
@@ -19,7 +20,6 @@ body
 .nav
 {
     float: right;
-    width: auto;
     right: 25%;
 }
 
