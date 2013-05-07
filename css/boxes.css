@@ -21,6 +21,7 @@ body
     list-style-type: none;
     float: right;
     background-color: #333;
+    padding-right: 100px;
 }
 
 .nav ul li
