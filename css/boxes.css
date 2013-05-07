@@ -7,7 +7,7 @@
 body
 {
     margin: 0px;
-    padding-top: 120px;
+    padding: 120px 0px 120px;
 }
 
 #navbar
@@ -19,7 +19,6 @@ body
 .nav
 {
     float: right;
-    z-index: 1;
     width: auto;
 }
 
@@ -49,7 +48,6 @@ body
     margin: 0px auto;
     padding: 0px;
     width: 1200px;
-    z-index: 0;
 }
 
 #box1
