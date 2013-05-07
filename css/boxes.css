@@ -15,13 +15,13 @@ body
 {
     width: 1200px;
     margin: 0 auto;
-    background-color: #333;
 }
 
 .nav ul
 {
     list-style-type: none;
     float: right;
+    background-color: #333;
 }
 
 .nav ul li
