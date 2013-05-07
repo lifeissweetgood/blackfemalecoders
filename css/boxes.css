@@ -90,6 +90,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
 #box3
@@ -106,6 +107,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
 #box4
@@ -119,6 +121,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
 #box5
@@ -132,6 +135,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
 #box6
@@ -145,6 +149,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
 #box7
@@ -171,5 +176,6 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
+    position: relative;
 }
 
