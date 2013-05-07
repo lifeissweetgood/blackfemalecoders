@@ -49,6 +49,8 @@ body
 {
     float: left;
     background-color: #000;
+    background-image: url('http://24.media.tumblr.com/tumblr_mdfxbw9Jfu1r5cwkho1_1280.jpg');
+    background-size: 400px auto;
     border-radius: 15px;
     -moz-border-radius: 15px; 
     width: 400px;
