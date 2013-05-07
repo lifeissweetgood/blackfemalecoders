@@ -16,6 +16,13 @@ p
     margin: 10px;
 }
 
+#continue
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .nav
 {
     margin: 0 auto;
