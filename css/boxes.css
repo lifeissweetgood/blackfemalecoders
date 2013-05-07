@@ -10,7 +10,7 @@ body
     padding: 120px 0px 120px;
     width: 1200px;
     background-color: #999;
-    opacity: 0.5;
+    background-image: url('img/gridbg.jpg');
 }
 
 p
