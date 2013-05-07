@@ -1,4 +1,4 @@
-.main
+.main-boxes
 {
     margin: 0px;
     padding: 80px;
@@ -7,65 +7,81 @@
 
 #box1
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 400px;
     height: 400px;
+    margin: 5px;
 }
 
 #box2
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 400px;
     height: 200px;
+    margin: 5px;
 }
 
 #box3
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+    margin: 5px;
 }
 
 #box4
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+    margin: 5px;
 }
 
 #box5
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+    margin: 5px;
 }
 
 #box6
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+    margin: 5px;
 }
 
 #box7
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 600px;
     height: 400px;
+    margin: 5px;
 }
 
 #box8
 {
+    float: left;
     background-color: #000;
     border-radius: 15px;
     width: 400px;
     height: 200px;
+    margin: 5px;
 }
 
