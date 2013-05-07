@@ -9,6 +9,7 @@
     float: right;
     z-index: 1;
     margin: 0 auto;
+
     padding-left: 120px;
     width: 1200px;
 }
@@ -28,7 +29,7 @@
 .main
 {
     margin: 0;
-    padding: 120px;
+    padding: 0px 120px 120px 120px;
     /*background-color: #000;
     opacity: 0.4;
     filter: alpha(opacity=40);*/
