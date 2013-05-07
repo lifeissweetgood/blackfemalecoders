@@ -82,7 +82,8 @@ p
 #box2
 {
     float: left;
-    background-color: #000;
+    background-color: #999;
+    opacity:0.4;
     border-radius: 15px;
     -moz-border-radius: 15px; 
     width: 405px;
@@ -168,7 +169,7 @@ p
 #box8
 {
     float: left;
-    background-color: #000;
+    background-color: #999;
     border-radius: 15px;
     -moz-border-radius: 15px; 
     width: 405px;
