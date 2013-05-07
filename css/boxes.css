@@ -11,16 +11,12 @@ body
     width: 1200px;
 }
 
-#navbar
-{
-    margin: 0 auto;
-}
-
 .nav
 {
     float: right;
     right: 25%;
     width: 1200px;
+    margin: 0 auto;
     background-color: #333;
 }
 
