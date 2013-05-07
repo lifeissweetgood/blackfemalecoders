@@ -7,18 +7,19 @@
 .nav
 {
     float: right;
-    position: absolute;
+    position: fixed;
     z-index: 1;
 }
 
 .nav ul
 {
     list-style-type: none;
-    display: block;
+    float: left;
 }
 
 .nav ul li
 {
+    display: inline;
     padding-left: 5px;
 }
 
