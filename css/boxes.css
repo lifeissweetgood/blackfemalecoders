@@ -7,8 +7,8 @@
 .nav
 {
     float: right;
-    position: fixed;
     z-index: 1;
+    padding-right: 120px;
 }
 
 .nav ul
