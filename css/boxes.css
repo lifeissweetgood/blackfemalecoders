@@ -13,7 +13,6 @@ body
 
 .nav
 {
-    float: right;
     left: 25%;
     width: 1200px;
     margin: 0 auto;
@@ -23,7 +22,7 @@ body
 .nav ul
 {
     list-style-type: none;
-    float: left;
+    float: right;
 }
 
 .nav ul li
