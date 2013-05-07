@@ -9,6 +9,8 @@ body
     margin: 0px;
     padding: 120px 0px 120px;
     width: 1200px;
+    background-color: #333
+    opacity: 0.5;
 }
 
 p
@@ -83,7 +85,7 @@ p
 {
     float: left;
     background-color: #444;
-    opacity:0.6;
+    opacity:0.8;
     border-radius: 15px;
     -moz-border-radius: 15px; 
     width: 405px;
@@ -178,6 +180,6 @@ p
     margin-left: 5px;
     text-align: left;
     position: relative;
-    opacity:0.6;
+    opacity:0.8;
 }
 
