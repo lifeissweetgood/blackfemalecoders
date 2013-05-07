@@ -9,7 +9,9 @@ body
     margin: 0px;
     padding: 120px 0px 120px;
     width: 1200px;
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
+    background-color: #444;
+    color: #fff;
 }
 
 p
@@ -83,7 +85,7 @@ p
 #box2
 {
     float: left;
-    background-color: #444;
+    background-color: #989;
     opacity:0.8;
     border-radius: 15px;
     -moz-border-radius: 15px; 
@@ -170,7 +172,7 @@ p
 #box8
 {
     float: left;
-    background-color: #444;
+    background-color: #989;
     border-radius: 15px;
     -moz-border-radius: 15px; 
     width: 405px;
