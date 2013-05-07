@@ -20,12 +20,12 @@ p
 {
     padding: 20px 0;
 }
-/*
 #continue
 {
+    position: absolute;
     bottom: 0;
-    right:0;
-}*/
+    left: 0;
+}
 
 .nav
 {
@@ -76,8 +76,7 @@ p
     margin-top: 5px;
     margin-left: 5px;
     text-align: left;
-    display: table-cell;
-    vertical-align: bottom;
+    position: relative;
 }
 
 #box2
