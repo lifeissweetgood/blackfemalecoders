@@ -16,6 +16,11 @@ p
     margin: 10px;
 }
 
+#title
+{
+    padding: 20px 0;
+}
+
 #continue
 {
     bottom: 0;
