@@ -1,3 +1,5 @@
+$(document).ready(getBlogInfo);
+
 // This may later take in json data directly
 function BoxObject( var type, var date, var title, var url)
 {
