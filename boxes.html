@@ -5,16 +5,26 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src="../js/template.js"></script>
         <script type="text/javascript">
+            function callback(context) {
+                var source = $("#post-template").html();
+                var template = Handlebars.compile(source);
+                var html = template(context);
+                $('.description').append(html);
+            }
+
             $(document).ready(function() {
                 //getPosts();
                 console.log("Start getPosts");
-    $.getJSON("http://api.tumblr.com/v2/blog/blackfemalecoders.tumblr.com/info?api_key=IfkD8OB9BOg9V0MU2gbpMP1uxQDoFjMAXUEe1YDUNGnG4PkFGg&jsonp=?", function(data) {
-        $('.main-boxes').append("<p>"+jQuery.parseJSON(data)+"</p>");
-        alert("It's happeningggggg!");
+    $.getJSON("http://api.tumblr.com/v2/blog/blackfemalecoders.tumblr.com/info?api_key=IfkD8OB9BOg9V0MU2gbpMP1uxQDoFjMAXUEe1YDUNGnG4PkFGg&jsonp=callback", function(data) {
         console.log(data);
     });
     console.log("End getPosts");
             });
+        </script>
+        <script id="post-template" type="text/x-handlebars-template">
+            <div class="description">
+                {{description}}
+            </div>
         </script>
     </head>
     <body>
