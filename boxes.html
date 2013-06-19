@@ -11,7 +11,7 @@
                 var source = $("#post-template").html();
                 var template = Handlebars.compile(source);
                 var html = template(context);
-                $('.description').append(html);
+                $('.main-boxes').append(html);
             }
 
             $(document).ready(function() {
@@ -20,6 +20,11 @@
     $.getJSON("http://api.tumblr.com/v2/blog/blackfemalecoders.tumblr.com/info?api_key=IfkD8OB9BOg9V0MU2gbpMP1uxQDoFjMAXUEe1YDUNGnG4PkFGg&jsonp=?", callback);
     console.log("End getPosts");
             });
+        </script>
+        <script id="post-template" type="text/x-handlebars-template">
+            <div class="description">
+                {{description}}
+            </div>
         </script>
     </head>
     <body>
@@ -35,11 +40,6 @@
         <div style="width:1200px;height:1px;margin: 10px 0;"></div>
         <div class="main">
             <div class="main-boxes">
-                <script id="post-template" type="text/x-handlebars-template">
-                    <div class="description">
-                        {{description}}
-                    </div>
-                </script>
                 
             </div>
         </div>
