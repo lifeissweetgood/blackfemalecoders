@@ -38,12 +38,17 @@ function makeDivBox(var boxObj)
     $('.main-boxes').append(box_div);
 }
 
-function getPosts()
+function handleBlogInfo(context) {
+    console.log(context);
+    var source = $("#post-template").html();
+    var template = Handlebars.compile(source);
+    var html = template(context);
+    $('.main-boxes').append(html);
+}
+
+function getBlogInfo()
 {
     console.log("Start getPosts");
-    $.getJSON("http://api.tumblr.com/v2/blog/blackfemalecoders.tumblr.com/posts?api_key=IfkD8OB9BOg9V0MU2gbpMP1uxQDoFjMAXUEe1YDUNGnG4PkFGg", function(data) {
-        $('.main-boxes').append(data);
-        alert("It's happeningggggg!");
-    });
+    $.getJSON("http://api.tumblr.com/v2/blog/blackfemalecoders.tumblr.com/info?api_key=IfkD8OB9BOg9V0MU2gbpMP1uxQDoFjMAXUEe1YDUNGnG4PkFGg&jsonp=?", handleBlogInfo);
     console.log("End getPosts");
 }
